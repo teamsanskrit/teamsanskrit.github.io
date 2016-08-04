@@ -599,4 +599,6 @@ body {
     transform: translateX(0px); }
   .cardcont {
     color: #fff;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px; }
+  .name {
+    text-decoration: underline; } }
