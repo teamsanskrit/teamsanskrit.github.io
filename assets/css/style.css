@@ -561,7 +561,7 @@ hr {
     padding-top: 0px;
     margin: 12px; }
   .scale50 {
-    height: 290px;
+    height: 284px;
     width: 100vw;
     overflow-y: scroll;
     overflow-x: hidden;
@@ -571,9 +571,11 @@ hr {
     position: relative; }
   .header-fixed p {
     width: auto;
+    color: #333;
     padding-left: 8px; }
   .header-fixed a {
-    background-size: 100% 2px; }
+    background-size: 100% 2px;
+    color: #333; }
   .UItext {
     margin-top: -100px;
     margin: 0px; }
