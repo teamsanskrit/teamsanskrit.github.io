@@ -163,7 +163,7 @@ a {
   font-family: 'Dosis';
   font-weight: 700;
   font-size: 32px;
-  color: #2E5DF8;
+  color: #333;
   padding-top: 1px;
   padding-bottom: 5px;
   -webkit-transition-duration: 0.4s;
@@ -304,7 +304,9 @@ body {
 
 .card img:hover,
 .card img:active {
-  box-shadow: 0 3px 0px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 0px 0px 6px #2e5df8;
+  -moz-box-shadow: 0px 0px 0px 6px #2e5df8;
+  box-shadow: 0px 0px 0px 6px #2e5df8;
   -webkit-transform: scale(1.05);
   transform: scale(1.05); }
 
@@ -356,16 +358,16 @@ body {
   padding-top: 40px;
   margin: auto;
   width: 710px;
-  color: #555;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: Dosis, Helvetica, sans-serif;
   letter-spacing: .01rem;
   font-weight: 800;
   font-style: normal;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: -.003em; }
+  letter-spacing: .025em; }
 
 .blogsubtitle {
   text-align: center;
@@ -398,7 +400,7 @@ body {
   line-height: 1.5;
   margin: auto;
   width: 710px;
-  padding-top: 16px; }
+  padding-top: 8px; }
 
 .blogtxt .imgdesc {
   -webkit-font-smoothing: antialiased;
@@ -466,7 +468,7 @@ body {
 .hvr-grow-shadow:hover,
 .hvr-grow-shadow:active {
   color: #2E5DF8;
-  box-shadow: 0px 3px 34px -4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 34px -4px #2E5DF8;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   outline: none; }
@@ -496,18 +498,13 @@ body {
   color: #000;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Karla';
+  font-family: 'Dosis';
   letter-spacing: .01rem;
   font-weight: 600;
   font-style: normal;
   font-size: 20px;
   line-height: 1.58;
   letter-spacing: -.003em; }
-
-hr {
-  margin: 100px;
-  margin-top: 80px;
-  margin-bottom: 80px; }
 
 /* MOBILE RULES */
 @media only screen and (max-width: 768px) {
